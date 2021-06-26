@@ -1,6 +1,6 @@
 {% extends 'main_website_app/main_no_navbar.html' %}
 {% block content %}
-  
+<form action=”info.php” method=”post”>
 <div class="container-fluid">
 <div class="row justify-content-center">
 <div class="col-md-6 m-4">
@@ -9,23 +9,23 @@
     <div class="card shadow-md p-4">
         <form action="" method="">
         <div class="form-floating mb-3">
-            <input type="email" class="form-control" id="floatingEmail" placeholder="name@example.com">
+            <input type="email" class="form-control" name="email" id="floatingEmail" placeholder="name@example.com">
             <label for="floatingEmail">Email address</label>
         </div>
         <div class="form-floating mb-3">
-            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <input type="password" class="form-control" name="password" id="floatingPassword" placeholder="Password">
             <label for="floatingPassword">Password</label>
         </div>
         <div class="form-floating mb-3">
-            <input type="text" class="form-control" id="floatingFname" placeholder="FirstName">
+            <input type="text" class="form-control" name="firstname" id="floatingFname" placeholder="FirstName">
             <label for="floatingFname">First Name</label>
         </div>
         <div class="form-floating mb-3">
-            <input type="text" class="form-control" id="floatingLname" placeholder="LastName">
+            <input type="text" class="form-control" name="lastname" id="floatingLname" placeholder="LastName">
             <label for="floatingLname">Last Name</label>
         </div>
         <div class="form-floating mb-3">
-            <input type="tel" class="form-control" id="floatingTelnumber" placeholder="LastTelnumber">
+            <input type="tel" class="form-control" name="phonenumber" id="floatingTelnumber" placeholder="LastTelnumber">
             <label for="floatingTelnumber">Telephone Number</label>
         </div>
         <div class="d-grid">

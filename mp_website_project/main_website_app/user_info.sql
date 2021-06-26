@@ -1,13 +1,9 @@
-import mysql.connector
-
-mydb = mysql.connector.connect(
-  email="email",
-  password="yourusername",
-  firstname="yourpassword",
-  lastname="mydatabase",
-  phonenumber="myphonenumber"
-)
-
-mycursor = mydb.cursor()
-
-mycursor.execute("CREATE TABLE user_info (name VARCHAR(255), address VARCHAR(255))")
+CREATE TABLE 'user_info' (
+    'id' int 11 NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    'email' varchar(100) NOT NULL,
+    'password' varchar(100) NOT NULL,
+    'firstname' varchar(100) NOT NULL,
+    'lastname' varchar(100) NOT NULL,
+    'phonenumber' varchar(100) NOT NULL
+    )
+    ENGINE=InnoDB DEFAULT CHARSET=latin1
