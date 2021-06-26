@@ -1,0 +1,40 @@
+{% extends 'main_website_app/main_no_navbar.html' %}
+{% block content %}
+  
+<div class="container-fluid">
+<div class="row justify-content-center">
+<div class="col-md-6 m-4">
+    <h1 class="ms-4">Join us!</h1>
+    <p class="ms-4">Please fill up the following fields</p>
+    <div class="card shadow-md p-4">
+        <form action="" method="">
+        <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingEmail" placeholder="name@example.com">
+            <label for="floatingEmail">Email address</label>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Password</label>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="floatingFname" placeholder="FirstName">
+            <label for="floatingFname">First Name</label>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="floatingLname" placeholder="LastName">
+            <label for="floatingLname">Last Name</label>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="tel" class="form-control" id="floatingTelnumber" placeholder="LastTelnumber">
+            <label for="floatingTelnumber">Telephone Number</label>
+        </div>
+        <div class="d-grid">
+            <button type="submit" class="btn text-center">SIGN UP</button>
+        </div>
+        </form>
+    </div>
+</div>
+</div>
+</div>
+
+{% endblock content %}

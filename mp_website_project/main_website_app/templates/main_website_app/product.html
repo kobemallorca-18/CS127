@@ -1,0 +1,196 @@
+{% extends 'main_website_app/main.html' %}
+
+{% block content %}
+
+<div class="container-fluid">
+    <h5><a class="btn my-3" href="{% url 'products' %}"> << Back to shop </a></h5>
+    <div class="row mb-5">
+        <div class="col-xl-6">
+            <img class="d-block m-auto" src="https://via.placeholder.com/500x500" alt="">
+        </div>
+        <div class="col-xl-6 my-3 my-sm-3 my-xl-auto">
+          
+            <br>
+            <div class="col my-2">
+                <h2>{{product.name}}</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+                    in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <br><br>
+                <p class="my-auto">
+                    PHP Price
+                </p>
+            </div>
+            <div class="d-grid">
+                <button class="btn text-center" type="" style="height: 4rem">Add to cart</button>
+            </div>
+        </div>
+    </div>
+    <div class="row my-2 py-5" style="background-color: #c9c9bb">
+        <div class="col">
+            <h3>Frequently bought together</h3>
+            <br>
+            <div class="row row-cols-7 my-3 g-3">
+                <div class="col">
+                    <a href="{% url 'product' %}" class="product-display-link">
+                        <div class="card product-display zoom">
+                            <img src="https://via.placeholder.com/500x500" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title product-display-title">Product Name</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="{% url 'product' %}" class="product-display-link">
+                        <div class="card product-display zoom">
+                            <img src="https://via.placeholder.com/500x500" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title product-display-title">Product Name</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="{% url 'product' %}" class="product-display-link">
+                        <div class="card product-display zoom">
+                            <img src="https://via.placeholder.com/500x500" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title product-display-title">Product Name</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="{% url 'product' %}" class="product-display-link">
+                        <div class="card product-display zoom">
+                            <img src="https://via.placeholder.com/500x500" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title product-display-title">Product Name</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="{% url 'product' %}" class="product-display-link">
+                        <div class="card product-display zoom">
+                            <img src="https://via.placeholder.com/500x500" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title product-display-title">Product Name</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="{% url 'product' %}" class="product-display-link">
+                        <div class="card product-display zoom">
+                            <img src="https://via.placeholder.com/500x500" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title product-display-title">Product Name</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="{% url 'product' %}" class="product-display-link">
+                        <div class="card product-display zoom">
+                            <img src="https://via.placeholder.com/500x500" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title product-display-title">Product Name</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row py-5 mt-2 mb-5">
+        <div class="col">
+            <h3>You might also like</h3>
+            <br>
+            <div class="row row-cols-7 my-3 g-3">
+                <div class="col">
+                    <a href="{% url 'product' %}" class="product-display-link">
+                        <div class="card product-display zoom">
+                            <img src="https://via.placeholder.com/500x500" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title product-display-title">Product Name</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="{% url 'product' %}" class="product-display-link">
+                        <div class="card product-display zoom">
+                            <img src="https://via.placeholder.com/500x500" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title product-display-title">Product Name</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="{% url 'product' %}" class="product-display-link">
+                        <div class="card product-display zoom">
+                            <img src="https://via.placeholder.com/500x500" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title product-display-title">Product Name</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="{% url 'product' %}" class="product-display-link">
+                        <div class="card product-display zoom">
+                            <img src="https://via.placeholder.com/500x500" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title product-display-title">Product Name</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="{% url 'product' %}" class="product-display-link">
+                        <div class="card product-display zoom">
+                            <img src="https://via.placeholder.com/500x500" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title product-display-title">Product Name</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="{% url 'product' %}" class="product-display-link">
+                        <div class="card product-display zoom">
+                            <img src="https://via.placeholder.com/500x500" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title product-display-title">Product Name</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="{% url 'product' %}" class="product-display-link">
+                        <div class="card product-display zoom">
+                            <img src="https://via.placeholder.com/500x500" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title product-display-title">Product Name</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- <h1>PRODUCT PAGE</h1>
+
+<p>Unfinished</p> -->
+
+{% endblock content %}

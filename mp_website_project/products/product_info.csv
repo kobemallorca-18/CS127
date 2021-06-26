@@ -1,0 +1,11 @@
+item_code,name,price,description,brand,category
+1001,12-Piece Gardening Hand Tool Set,2500,products/description/1001.txt,3M,Utility
+1002,3-Piece Indoor Gardening Hand Tool Set,350,products/description/1002.txt,N/A,Utility
+1003,2-Liter Pressurized Portable Hand Sprayer,320,products/description/1003.txt,N/A,Utility
+1004,Organic Bat Guano,1200,products/description/1004.txt,Espoma,Utility
+1005,100-pc Biodegradable Seed Starter Bags,200,products/description/1005.txt,N/A,Utility
+2001,Cherry Tomato Seeds,90,products/description/2001.txt,Ramgo,Plants
+2002,Romaine Lettuce Seeds,85,products/description/2002.txt,Ramgo,Plants
+2003,Cucumber Seeds,100,products/description/2003.txt,Ramgo,Plants
+2004,White Bunching Onion Seeds,130,products/description/2004.txt,Gardener's Basics,Plants
+2005,Kale Seeds,80,products/description/2005.txt,Ramgo,Plants
